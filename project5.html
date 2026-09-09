@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      margin: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 12px;
+      text-align: center;
+    }
+
+    thead th {
+      background: #34495e;
+      color: white;
+    }
+
+    /* Color coding */
+    .study { background: #3498db; color: white; }   /* Blue */
+    .exercise { background: #2ecc71; color: white; } /* Green */
+    .break { background: #f1c40f; }                  /* Yellow */
+    .netflix { background: #e74c3c; color: white; }  /* Red */
+    .personal { background: #9b59b6; color: white; } /* Purple */
+    .sleep { background: #95a5a6; color: white; }    /* Grey */
+  </style>
+</head>
+<body>
+
+  <h1>📅 My Weekly Timetable</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>8 AM - 10 AM</th>
+        <td class="study" rowspan="2">Study</td>
+        <td class="study">Study</td>
+        <td class="exercise">Exercise</td>
+        <td class="study">Study</td>
+        <td class="study" rowspan="2">Project Work</td>
+      </tr>
+      <tr>
+        <th>10 AM - 12 PM</th>
+        <td class="exercise">Exercise</td>
+        <td class="study">Study</td>
+        <td class="personal">Personal</td>
+      </tr>
+      <tr>
+        <th>12 PM - 1 PM</th>
+        <td class="break" colspan="5">🍴 Lunch Break</td>
+      </tr>
+      <tr>
+        <th>1 PM - 3 PM</th>
+        <td class="study">Study</td>
+        <td class="personal">Reading</td>
+        <td class="study">Study</td>
+        <td class="netflix">Netflix</td>
+        <td class="study">Study</td>
+      </tr>
+      <tr>
+        <th>3 PM - 5 PM</th>
+        <td class="exercise">Exercise</td>
+        <td class="study">Study</td>
+        <td class="netflix">Netflix</td>
+        <td class="study">Study</td>
+        <td class="exercise">Exercise</td>
+      </tr>
+      <tr>
+        <th>10 PM - 7 AM</th>
+        <td class="sleep" colspan="5">💤 Sleep</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

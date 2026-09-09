@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kalvium Cafe </title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f1e3;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: #4b2e05;
+            text-shadow: 2px 2px #e0c097;
+            margin-bottom: 8px;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 300;
+            margin-bottom: 30px;
+            color: #6d5233;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        li {
+            padding: 5px;
+            transition: 0.3s;
+        }
+
+        li:hover {
+            color: #b55b0a;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 2px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            background: #fff8e7;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #c9b79b;
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            font-family: inherit;
+        }
+
+        button {
+            background: #4b2e05;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #b55b0a;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Digital Café</h1>
+    <h3>Fresh • Cozy • Delicious</h3>
+
+    <div class="section">
+        <h2>🥗 Starters</h2>
+        <ul>
+            <li>Garlic Bread</li>
+            <li>Veg Nachos</li>
+            <li>Cheesy Platter</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🍛 Main Course</h2>
+        <ol>
+            <li>Grilled Sandwich</li>
+            <li>Veg Pasta</li>
+            <li>Paneer Sizzler</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>🥤 Drinks</h2>
+        <ul>
+            <li>Cold Coffee</li>
+            <li>Mint Lemonade</li>
+            <li>Hot Chocolate</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>⭐ Today's Specials</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Margherita Pizza</td>
+                <td>Main</td>
+                <td>₹250</td>
+            </tr>
+            <tr>
+                <td>Brownie Sundae</td>
+                <td>Dessert</td>
+                <td>₹140</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>📝 Feedback Form</h2>
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Favorite Menu Category</label>
+            <select>
+                <option>Starters</option>
+                <option>Main Course</option>
+                <option>Drinks</option>
+            </select>
+
+            <label>Your Feedback</label>
+            <textarea rows="4" placeholder="Write your feedback..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
