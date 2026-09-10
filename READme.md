@@ -1,4 +1,4 @@
-# 🌐 HTML & CSS Mini Projects
+# 🌐 HTML & CSS Projects
 
 This repository contains a collection of beginner-friendly web development
 projects created using HTML and CSS.
@@ -32,7 +32,7 @@ It contains:
 A digital café webpage designed using HTML and CSS.
 
 It contains:
-- Café heading and tagline
+- Cafe heading and tagline
 - Starters menu
 - Main course menu
 - Drinks menu
