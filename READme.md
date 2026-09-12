@@ -1,4 +1,4 @@
-# 🌐 HTML & CSS Projects
+# 🌐HTML & CSS Projects
 
 This repository contains a collection of beginner-friendly web development
 projects created using HTML and CSS.
@@ -7,9 +7,9 @@ These projects are part of my learning journey in frontend web development,
 where I practice creating webpages, using HTML elements, styling with CSS,
 and organizing projects with Git and GitHub.
 
-## 📂 Projects
+## 📂Projects
 
-### 1. 🧠 Squad Titans
+### 1. 🧠Squad Titans
 
 A simple squad introduction webpage created using HTML and CSS.
 
@@ -27,7 +27,7 @@ It contains:
 
 ---
 
-### 2. ☕ Kalvium Café
+### 2. ☕Kalvium Café
 
 A digital café webpage designed using HTML and CSS.
 
@@ -46,7 +46,7 @@ It contains:
 
 ---
 
-### 3. 📅 Weekly Timetable
+### 3. 📅Weekly Timetable
 
 A weekly timetable webpage created using HTML and CSS.
 
@@ -66,14 +66,14 @@ It contains:
 
 ---
 
-## 🛠️ Technologies
+## 🛠️Technologies
 
 - HTML5
 - CSS3
 - Git
 - GitHub
 
-## 🎯 Learning Objectives
+## 🎯Learning Objectives
 
 Through these projects, I am learning:
 
@@ -87,7 +87,7 @@ Through these projects, I am learning:
 - GitHub repository management
 - Team/project collaboration
 
-## 🚀 How to Run
+## 🚀How to Run
 
 1. Clone this repository.
 
