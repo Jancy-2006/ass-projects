@@ -7,9 +7,8 @@ These projects are part of my learning journey in frontend web development,
 where I practice creating webpages, using HTML elements, styling with CSS,
 and organizing projects with Git and GitHub.
 
-## 📂Projects
 
-### 1. 🧠Squad Titans
+### 1.🧠Squad Titans
 
 A simple squad introduction webpage created using HTML and CSS.
 
