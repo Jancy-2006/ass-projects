@@ -8,7 +8,7 @@ where I practice creating webpages, using HTML elements, styling with CSS,
 and organizing projects with Git and GitHub.
 
 
-### 1.🧠Squad Titans
+### 1.🧠SQUAD TITANS
 
 A simple squad introduction webpage created using HTML and CSS.
 
